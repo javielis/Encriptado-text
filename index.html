@@ -9,15 +9,15 @@
 <body>
     <div class="container">
         <div class="encriptar">
-            <textarea name="texto" 
+            <textarea 
+            name="texto" 
             class="texto" 
             id="texto" 
             cols="30" 
             rows="10"
-            placeholder="Ingresa el texto aqui">
-        </textarea>
-        </div>
-        
+            placeholder="Ingresa el texto aqui"
+            ></textarea>
+      
         <div class="terminos">
             <p>Solo letras minusculas y sin acentos</p>
         </div>
@@ -26,20 +26,20 @@
                 Encriptar
             </button>
             <button class="btn-desencriptar" type="button" onclick="desencriptar()">
-                Encriptar
+                Desencriptar
             </button>
         </div>
     
     <div class="encriptado">
-        <img src="" alt="" id="imag">
+        <img src="imagenes/muñeco.png" alt="" id="muñeco">
         <div class="mensaje-encriptado" id="mensaje-encriptado">
-            <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
+            <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
             <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+         
         </div>
     </div>
-
 </div>
+
 </body>
 <script src="index.js"></script>
 </html>
